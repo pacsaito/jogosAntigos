@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    background-color: #F5E6C8;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: auto;
+    width: 970px;
+}
+
+#intro-pag {
+    display: block;
+    unicode-bidi: isolate;
+
+}
+
+.conteudo-padrao {
+
+}
+
+#space {
+
+}
+
+#pac{
+
+}
+
+#dk{
+
+}
