@@ -1,42 +1,198 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
 
 body {
-    background-color: #a5cad3;
-    font-family: "Pixelify Sans", sans-serif;
+    background-color: #121212;
+    
+    font-family: 'VT323', monospace;
     font-size: 20px;
     text-align: justify;
     margin: auto;
-    width: 970px;
+    width: 1050px;
+    color: #dcdcdc;
 }
 
-#intro-pag {
-    display: block;
-    unicode-bidi: isolate;
+.intro-pag {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 45px;
 
 }
 
 img {
-    height: 280px;
+    height: 250px;
     display: block;
     margin: 30px auto;
+    border-radius: 10px;
 }
 
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
+}
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    line-height: 1.5;
 }
 
+footer {
+    color: #121212;
+}
+footer a {
+    color: #00ffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
 
+footer a:hover {
+    color: #ff00ff;
+}
 
 .conteudo-padrao{
-    margin-bottom: 45px;
-    border-top: black solid;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #1e1e1e;
 }
 
+.container {
+    background-color:#f0f0f0;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* acima tem mudanças do body, na fonte, nas imagens e nas divs(blocos), etc. */
+
+/* abaixo tem estilos para as seções (cores dos hiperlinks, hoovers, ids para as imagens de fundo, etc.) */
+
+#introfundo {
+    background-image: url(img/fundo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+a {
+    color: #00ffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff00ff;
+}
+
+#space {
+    background-image: url(img/space2.jpg);
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#space a{
+    color: #39ff14;
+}
+#space a:hover {
+    color: #ff00ff;
+}
+
+#pac {
+    background-image: url(img/pacman2.jpg);
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#pac a{
+    color: #ffe600;
+}
+#pac a:hover {
+    color: #ff00ff;
+}
+
+#kong {
+    background-image: url(img/dk2.jpg);
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#kong a{
+    color: maroon;
+}
+#kong a:hover {
+    color: #ff00ff;
+}
+
+#tetris {
+    background-image: url(img/tetris2.jpg);
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#tetris a{
+    color: #00ffff;
+}
+#tetris a:hover {
+    color: #ff00ff;
+}
+
+#mario {
+    background-image: url(img/mario2.webp);
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#mario a{
+    color: #ff3131;
+}
+#mario a:hover {
+    color: #ff00ff;
+}
+
+#street{
+    background-image: url(img/street2.jpg);
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+#street a{
+    color: crimson;
+}
+#street a:hover {
+    color: #ff00ff;
+}
+
+/* acima tem estilos para as seções (cores dos hiperlinks, hoovers, ids para as imagens de fundo, etc.) */
+
+/* abaixo tem estilos para a pagina do aluno */
+
 #caracteristicas{
-    background-color: rgb(110, 134, 141);
-    }
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#nome h1 {
+    text-align: center;
+}
+
+#nome li {
+    text-align: center;
+    color: #1a1a1a;
+}
