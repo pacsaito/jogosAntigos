@@ -183,7 +183,7 @@ a:hover {
 /* abaixo tem estilos para a pagina do aluno */
 
 #caracteristicas{
-    background-color: #B7D49A;
+    background-color: #a7a7a7;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -199,7 +199,7 @@ a:hover {
 }
 
 #aluno {
-    background-color: #6e8044;
+    background-color: #333;
 }
 
 #nome a {
