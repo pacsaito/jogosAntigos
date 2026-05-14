@@ -4,7 +4,7 @@ body {
     background-color: #121212;
     
     font-family: 'VT323', monospace;
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
     margin: auto;
     width: 1050px;
@@ -200,4 +200,11 @@ a:hover {
 
 #aluno {
     background-color: #6e8044;
+}
+
+#nome a {
+    color:#dcdcdc;
+}
+#nome a:hover {
+    color:#6db443
 }
